@@ -1,0 +1,121 @@
+*{
+
+padding:0;
+margin:0;
+
+}
+
+#container{
+
+    width:2500px;
+    height:655px;
+    border:2px solid black;
+    background-color: maroon;
+    background-blend-mode: lighten;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+#layerZero{
+
+    background-image:url(images/layer_0.png);
+    background-size: 100%;
+    width:3000px;
+    height:455px;
+    position:absolute;
+    left:600;
+    top: 200;
+    z-index:4;
+    
+    
+    }
+
+
+#layerOne{
+
+    background-image:url(images/layer_1.png);
+    width:3000px;
+    height:455px;
+    position:absolute;
+    left:0;
+    top: 300;
+    z-index:5;
+    bottom:0;
+    
+    }
+    
+  
+#layerTwo{
+    
+        background-image:url(images/layer_2.png);
+        width:3000px;
+        height:455px;
+        position:absolute;
+        left:0;
+        top: 300;
+        z-index:6;
+        bottom:0;
+    
+        
+        }
+    
+#layerThree{
+    
+            background-image:url(images/layer_3.png);
+            width:3000px;
+            height:455px;
+            position:absolute;
+            left:0;
+            top: 300;
+            z-index:7;
+            bottom:0;
+         
+            
+            }
+    
+#layerFour{
+    
+                background-image:url(images/layer_4.png);
+                width:3000px;
+                height:455px;
+                position:absolute;
+                left:0;
+                top: 300;
+                z-index:8;
+                bottom:0;
+                
+                
+                }
+
+#layerFive{
+    
+                    background-image:url(images/layer_5.png);
+                    width:3000px;
+                    height:455px;
+                    position:absolute;
+                    left:0;
+                    top: 300;
+                    z-index:9;
+                    bottom:0;
+                   
+                   
+}
+
+                    
+#layerSix{
+    
+      background-image:url(images/layer_6.png);
+      width:3000px;
+      height:455px;
+      position:absolute;
+      left: 0;
+      top: 300;
+      z-index:10;
+      bottom:0;
+                      
+                       
+        }
+        
